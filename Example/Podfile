@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BPGridCollectionViewFlowLayout_Example' do
+  pod 'BPGridCollectionViewFlowLayout', :path => '../'
+
+  target 'BPGridCollectionViewFlowLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
