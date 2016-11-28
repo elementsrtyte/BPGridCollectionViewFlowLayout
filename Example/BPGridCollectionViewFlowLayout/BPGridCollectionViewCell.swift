@@ -1,5 +1,5 @@
 //
-//  CollectionViewCell.swift
+//  BPGridCollectionViewCell.swift
 //  TrustCategories
 //
 //  Created by Neil Bhargava on 11/22/16.

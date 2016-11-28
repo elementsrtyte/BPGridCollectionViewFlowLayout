@@ -1,0 +1,6 @@
+framework module BPGridCollectionViewFlowLayout {
+  umbrella header "BPGridCollectionViewFlowLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

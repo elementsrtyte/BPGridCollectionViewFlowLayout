@@ -1,0 +1,16 @@
+PODS:
+  - BPGridCollectionViewFlowLayout (0.1.0)
+
+DEPENDENCIES:
+  - BPGridCollectionViewFlowLayout (from `../`)
+
+EXTERNAL SOURCES:
+  BPGridCollectionViewFlowLayout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BPGridCollectionViewFlowLayout: dbb410fc1143ec42ea7ee7d2be425e33d1206fc8
+
+PODFILE CHECKSUM: e3fe27fb41c36b64a03ce2d8ad2c92b27a067f0a
+
+COCOAPODS: 1.1.0.rc.2
