@@ -10,7 +10,7 @@ import UIKit
 
 public class BPGridCollectionViewFlowLayout: UICollectionViewFlowLayout {
 
-    let numberOfColumns: CGFloat = 3
+    let numberOfColumns: CGFloat
     let lineSpacing: CGFloat = 1
 
     override public var itemSize: CGSize {
@@ -23,13 +23,15 @@ public class BPGridCollectionViewFlowLayout: UICollectionViewFlowLayout {
         }
     }
     
-    public override init() {
+    public init(numberOfColumns: Int = 3) {
+        self.numberOfColumns = CGFloat(numberOfColumns)
         super.init()
         self.setupLayout()
         
     }
     
     required public init?(coder aDecoder: NSCoder) {
+        self.numberOfColumns = 3
         super.init(coder: aDecoder)
         self.setupLayout()
     }

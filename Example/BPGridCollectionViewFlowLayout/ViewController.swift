@@ -16,7 +16,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.collectionView.collectionViewLayout = BPGridCollectionViewFlowLayout()
+        self.collectionView.collectionViewLayout = BPGridCollectionViewFlowLayout(numberOfColumns: 2)
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
