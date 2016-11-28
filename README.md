@@ -13,6 +13,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 -Swift3
 -XCode8
 
+## Screenshots
+![Screenshot of component](/Screenshots/BPGridCollectionViewFlowLayout.png?raw=true "Screenshot of component")
+
+
 ## Installation
 
 BPGridCollectionViewFlowLayout is available through [CocoaPods](http://cocoapods.org). To install
